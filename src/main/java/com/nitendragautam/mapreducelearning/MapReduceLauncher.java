@@ -1,8 +1,8 @@
-package com.nitendragautam.mapreducelearning.main;
+package com.nitendragautam.mapreducelearning;
 
 import org.apache.hadoop.util.ProgramDriver;
 
-import com.nitendragautam.mapreducelearning.wordcountexample.*;
+
 /*
  * Main Launcher Class which can launch different MapReduce Program
  */
@@ -12,7 +12,7 @@ public class MapReduceLauncher {
 		
 		ProgramDriver driver = new ProgramDriver();
 		
-		driver.addClass("WordCount",WordCountExample.class, "Launches Word Count Example");
+		driver.addClass("WordCount",com.nitendragautam.mapreducelearning.wordcount.WordCount.class, "Launches Word Count Example");
 		
 		
 		driver.driver(args); //Add  the Argument 
