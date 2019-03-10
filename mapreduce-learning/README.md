@@ -21,4 +21,4 @@ $hadoop jar /home/hduser/mapreducelearning-1.jar com.nitendragautam.mapreducelea
 
 Make sure that input file is copied to input HDFS directory and output directory does not exists
 
-for more HDFS commands Visit my blog https://nitendragautam.github.io/apache-hadoop-hdfs-commands/
+for more HDFS commands Visit my blog https://nitendragautam.com/bigdata/apache-hadoop-hdfs-commands/
